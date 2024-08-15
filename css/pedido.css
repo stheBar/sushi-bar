@@ -1,0 +1,25 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    background: #1D2225;
+    padding-top: 70px; /* Adiciona espaço no topo para evitar sobreposição com a navbar fixa */
+}
+
+#header {
+    height: auto;
+}
+
+#form {
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza a div */
+    background-color: #d8d8e7;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0.80rem;
+    color: #333;
+}

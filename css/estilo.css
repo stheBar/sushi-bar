@@ -1,0 +1,175 @@
+#back{ /* id do body*/
+    background-color: #1D2225;
+    overflow-x: hidden;
+    position: relative;
+    font-family: "Gill Sans", sans-serif;
+   
+   
+}
+
+
+/*********** NavBar **************/
+.navbar {
+    background-color: #1D2225;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: #ccc;
+}
+
+/******** formatação do cabeçalho ********/
+header {
+    text-align: center;
+    height: 700px;
+    position: relative;
+    overflow: hidden; /* garante que as imagens de fundo não ultrapassem o header */
+}
+
+header .background-image-left,
+header .background-image-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /*usada para mover um elemento verticalmente em relação à sua posição original. */
+    width: 150px;
+    height: auto;
+}
+
+header .background-image-left {
+    left: 10px;
+}
+
+header .background-image-right {
+    right: 10px;
+}
+
+/* partes da Nav */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/***** formatação para centralizar a imagem ******/
+.logo-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+
+/* espaço no topo para evitar sobreposição com a navbar fixa */
+body {
+    padding-top: 70px;
+}
+
+/**** formatação para o botão de navegação quando a tela encolhe */
+.navbar-toggler {
+    background-color: #1D2225;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+#branco{
+    background-color: white;
+}
+
+/********** Sobre nós ************/
+
+.sobre-nos {
+    color: white; /* Texto branco para contraste */
+    padding: 50px 0; /* Espaçamento acima e abaixo */
+}
+
+.sobre-nos h2 {
+    color: #cca752;
+    font-size: 36px;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.sobre-nos p {
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+.sobre-nos .carousel {
+    margin-bottom: 20px;
+}
+
+.sobre-nos .img-fluid {
+    width: 100%; /* Largura total da imagem */
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+}
+
+.prato-img {
+    width: 200px;
+    height: auto; /* Manter proporção da imagem */
+    display: block; /* Garantir que a imagem seja exibida como bloco */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+}
+
+
+/******** Estilo para a divisória *********/
+.divisoria {
+    width: 100vw;
+    margin: 10px 0; /* Espaçamento acima e abaixo da imagem */
+}
+
+/******* Cardápio *******/
+
+#cardapio h1 {
+
+    color: #cca752;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.card {
+    background-color: #1D2225;
+    border: none;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.8); /* isso ajusta opacidade*/
+    padding: 1rem; /* Adiciona preenchimento para o conteúdo do card */
+    border-radius: 0.5rem; /* Adiciona bordas arredondadas */
+
+}
+
+.btn-realizar-pedido {
+    display: block;
+    margin: 2rem auto; /* centraliza o botão horizontalmente e adiciona margem superior */
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 300px;
+}
+.btn-realizar-pedido:hover {
+    background-color: #0056b3;
+}
+
+
+footer{
+    color: white;
+}
